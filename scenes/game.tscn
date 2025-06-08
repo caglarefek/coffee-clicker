@@ -14,6 +14,7 @@ grow_vertical = 2
 script = ExtResource("1_yqjtg")
 
 [node name="FarmerTimer" type="Timer" parent="."]
+autostart = true
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0

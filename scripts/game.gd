@@ -39,6 +39,7 @@ func _ready():
 	farmer_button.pressed.connect(_on_farmer_button_pressed)
 	speed_button.pressed.connect(_on_speed_button_pressed)
 	
+	farmer_timer.timeout.connect(farmer_timeout)
 	farmer_timer.wait_time = base_farmer_interval / farmer_speed_multiplier
 	update_ui()
 
