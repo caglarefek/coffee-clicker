@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Coffe Clicker"
+config/name="Coffee Clicker"
 run/main_scene="uid://bax8m3bisdg3j"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 
